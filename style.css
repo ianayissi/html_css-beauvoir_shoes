@@ -1,0 +1,39 @@
+body , a {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: antiquewhite;
+}
+
+header {
+    background-color: sienna;
+    padding: 1rem;
+}
+
+header #part1 {
+    display: flex;
+justify-content: space-between;
+}
+
+#part1 {
+    display: flex;
+}
+
+#part1 #logo {
+font-size: 4rem;
+rotate: -90deg;
+}
+
+#part1 h1 {
+
+}
+
+#part1 #social_links ul {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    gap: 1rem;
+
+}
+
+#social_links i {
+    font-size: 2rem;
+}
